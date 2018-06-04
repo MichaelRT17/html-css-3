@@ -1,0 +1,85 @@
+.body {
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.nav {
+    background-color: #228B22;
+    margin: 10px 150px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+#nav1 {
+    width: 50px;
+    height: 85%;
+    background-color: red;
+}
+
+#nav2 {
+    width: 450px;
+    height: 85%;
+    background-color: red;
+}
+
+#nav3 {
+    width: 70px;
+    height: 85%;
+    background-color: red;
+}
+
+.subnavTitle {
+    background-color: #228B22;
+    margin: 10px 150px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#firsttitle {
+    background-color: red;
+    height: 40%;
+    width: 300px;
+}
+
+#secondtitle {
+    background-color: red;
+    height: 30%;
+    width: 300px;
+}
+
+.sections {
+    background-color: #228B22;
+    margin: 10px 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.sectionlinks {
+    background-color: red;
+    width: 400px;
+    height: 90%;
+    margin: 0 120px;
+}
+
+.imagewheel {
+    background-color: #228B22;
+    margin: 10px 150px;
+    height: 250px;
+}
+
